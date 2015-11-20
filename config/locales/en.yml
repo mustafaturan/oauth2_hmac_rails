@@ -1,0 +1,8 @@
+en:
+  oauth2_hmac_rails:
+    missing_hmac_key: "MISSING_HMAC_KEY: %{details}"
+    client_not_found: "CLIENT_NOT_FOUND: %{client_id}"
+    invalid_signature: "INVALID_SIGNATURE: %{mac} for client id %{client_id}"
+    request_timeout_for_client_signature: "REQUEST_TIMEOUT_FOR_CLIENT_SIGNATURE: #{mac} for client id #{client_id}"
+    unauthorized: "UNAUTHORIZED"
+    replay_attack: "REPLAY_ATTACK"
