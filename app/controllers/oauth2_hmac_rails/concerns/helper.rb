@@ -82,7 +82,7 @@ module Oauth2HmacRails
               mac: mac,
               uts: Time.now.to_i
             )
-          rescue ActiveRecord::RecordNotUnique => e
+          rescue ActiveRecord::RecordNotUnique
             return unauthorized I18n.t("oauth2_hmac_rails.replay_attack")
           end
         end
