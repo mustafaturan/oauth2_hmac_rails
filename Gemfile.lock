@@ -72,7 +72,7 @@ GEM
     oauth2_hmac_header (0.1.2)
       oauth2_hmac_sign (~> 0.1.0)
     oauth2_hmac_sign (0.1.0)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5)
